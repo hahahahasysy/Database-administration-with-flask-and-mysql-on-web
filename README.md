@@ -12,4 +12,8 @@
 ·数据库迁移：Flask - Migrate
 ·跨域处理：Flask - CORS
 
-数据库各张表相关定义详见models.py
+数据库各张表相关定义详见models.py，其中图片的存储采用base64格式，文件较大用的是最大的记事本进行存储的。blueprint中存放了各种路由的实现。
+
+使用时下载解压源码包，安装好相关环境，创建好虚拟环境在虚拟环境中进行操作，下载requirements.txt,在config.py中配置好数据库的密码，在编辑器中输入进行orm映射，建立好相关数据库并迁移成功，分别启动前端project,后端app，即可进行相关网页的体验。
+
+本项目使用mysql数据库以及nacivate数据库管理工具，使用Python的Flask - SQLAlchemy编写数据库管理脚本，并使用orm进行映射，方便操作，能够直观地看到数据库的各种情况。
